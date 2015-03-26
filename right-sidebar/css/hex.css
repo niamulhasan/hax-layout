@@ -1,0 +1,79 @@
+/*Hex Responsive Layout created by Niamul Hasan
+Powered by www.alquranbd.com*/
+
+
+.holder{}
+
+.header {}
+
+.footer {}
+
+
+
+
+
+
+
+/*  COLUMN SETUP  */
+.content {
+	display: block;
+	float:left;
+
+}
+.content:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.contener:before,
+.contener:after {
+	content:"";
+	display:table;
+}
+.contener:after {
+	clear:both;
+}
+.contener {
+    padding:10px;
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+
+.contener .main {
+	float: left;
+	box-sizing: border-box;
+}
+
+.contener .sidebar {
+    box-sizing: border-box;
+	float: left;
+}
+
+
+
+
+
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.content { 
+		
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.contener  {
+		padding: 0px;
+	}
+	
+	.contener .main {
+		width: 100%;
+	}
+	
+	.contener .sidebar {
+		width: 100%;
+	}
+}
