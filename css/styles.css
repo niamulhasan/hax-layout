@@ -1,0 +1,19 @@
+/*Hex Responsive Layout created by Niamul Hasan
+Powered by www.alquranbd.com*/
+
+body {color: #fff;}
+
+.holder{background:#ddd; padding:5px;}
+
+.header {background:#c1c1c1; padding:20px;}
+
+.footer {background:#c1c1c1; padding:20px;}
+
+.contener {background:#ddd;}
+
+.main {	
+    width: 50%;
+	padding:10px;
+	border: 2px solid #eee;
+	background: #c1c1c1;}
+	
