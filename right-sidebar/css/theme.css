@@ -1,0 +1,148 @@
+/*Hex Responsive Layout created by Niamul Hasan
+Powered by www.alquranbd.com*/
+
+
+body {font-family: 'Century Gothic', arial;}
+
+a {
+	text-decoration: none;
+	color: #27b575;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #069d58;
+}
+
+
+
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 6px 0px 6px 6px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  color: #b1b1b1;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px #5ebf93;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #5ebf93;
+}
+
+
+
+
+
+input[type=button], input[type=submit], .button {
+   border: 1px solid #6dca75;
+   background: #80ce87;
+   padding: 4px 8px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   color: #fff;
+   font-size: 14px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+     -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+   }
+input[type=button]:hover, input[type=submit]:hover, .button:hover {
+   border-top: 1px solid #6dca75;
+   background: #9ae1a0;
+   text-shadow: 2px 2px 3px #005d34;
+   }
+   
+   
+hr
+{
+border: 0;
+color: #e5e5e5;
+background-color: #e5e5e5;
+height: 1px;
+width: 80%;
+}
+
+
+
+
+img{
+    margin: 20px;
+	border: 6px solid #bbb;
+	width: 42%;
+	vertical-align: center;
+	-moz-box-shadow:    0px 0px 10px 1px #6f6f6f;
+    -webkit-box-shadow: 0px 0px 10px 1px #6f6f6f;
+    box-shadow: 0px 0px 8px 1px #6f6f6f;
+}
+
+
+
+
+
+
+
+
+table{width:90%;}
+table th,table td{color:#111;padding:3px;text-align:left;vertical-align:top;border-top:1px solid #ddd;}
+
+table th{;color:#afc6af;}
+
+table thead th{vertical-align:bottom}
+
+table caption+thead tr:first-child th,table caption+thead tr:first-child td,table colgroup+thead tr:first-child th,table colgroup+thead tr:first-child td,table thead:first-child tr:first-child th,table thead:first-child tr:first-child td{border-top:0}
+
+table tbody+tbody{border-top:2px solid #ddd}
+
+table table{background-color:#fff}
+
+
+table tbody>tr:nth-child(odd)>td,table tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}
+
+table tbody tr:hover>td,table tbody tr:hover>th{background-color:#f5f5f5}
+
+
+
+
+
+
+
